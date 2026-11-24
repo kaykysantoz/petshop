@@ -73,7 +73,7 @@ transition: color 0.2s;
     color: var(--amarelo);
 }
 
-.carrosel{
+.carrossel{
     overflow: hidden;
     background: var(--azul-escuro);
 }
@@ -90,7 +90,7 @@ transition: color 0.2s;
     object-fit: cover;
 }
 
-.carrosel:hover .slides{
+.carrossel:hover .slides{
     animation-play-state: paused;
 }
 
@@ -203,6 +203,6 @@ margin-top: 10px;
     }
 }
 
-@media(prefers-reduced-motion: reduce){
+/*@media(prefers-reduced-motion: reduce){
     .slides{animation: none;}
-}
+}*/
